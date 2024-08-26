@@ -1,0 +1,75 @@
+:root {
+  --logo-base-color: #004aad;
+  --white-color: #fff;
+  --pragraph-text: #293a4e;
+  --font-family: roboto;
+}
+
+/* begin global style  */
+.btn-qutation {
+  text-decoration: none;
+  text-align: center;
+  background-color: #fff;
+  color: var(--pragraph-text);
+  border: none;
+  border-radius: 7px;
+  font-size: 17px;
+  font-weight: 700;
+  padding: 12px 16px;
+  transition: 0.4s;
+  font-family: roboto;
+}
+.section-heading {
+  font-size: 36px;
+  font-weight: 700;
+  font-family: var(--font-family);
+  color: var(--pragraph-text);
+  text-align: center;
+}
+.section-title {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: var(--font-family);
+  color: var(--pragraph-text);
+  text-align: center;
+}
+.description-text {
+  font-size: 16px;
+  font-family: var(--font-family);
+  color: var(--pragraph-text);
+  font-weight: 400;
+}
+/* end global style */
+
+main {
+  padding-top: 88px;
+}
+/* begin banner section  */
+.banner-section {
+  background-image: url("/src/assets/img/");
+}
+.banner-title {
+  font-size: 55px;
+  color: var(--pragraph-text);
+  font-family: var(--font-family);
+}
+.banner-subtitle {
+  font-size: 20px;
+  color: var(--pragraph-text);
+  font-family: var(--font-family);
+}
+.contact-btn {
+  text-decoration: none;
+  padding: 13px 11px;
+  border-radius: 7px;
+  background-color: var(--logo-base-color);
+  transition: all 0.6s ease-in-out;
+  font-size: 17px;
+}
+.contact-btn:hover {
+  padding-right: 30px;
+}
+/* end banner section  */
+/* begin our service  */
+
+/* end our service  */
